@@ -1,11 +1,13 @@
 package com.mobcom.counterapp
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ImageButton
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentActivity
+
 
 class MainActivity : FragmentActivity() {
     private var counter : Int = 0
